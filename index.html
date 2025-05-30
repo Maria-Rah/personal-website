@@ -9,9 +9,25 @@
             font-family: Arial, sans-serif;
             margin: 40px;
             line-height: 1.6;
+            color: #333;
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #2c3e50;
+        }
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            margin-top: 20px;
         }
         ul {
             list-style-type: disc;
@@ -30,45 +46,33 @@
         .section {
             margin-bottom: 30px;
         }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .nested-list {
+            list-style-type: circle;
+            margin-left: 30px;
+        }
     </style>
 </head>
 <body>
-    <h1>Research Associate</h1>
-    <h2>Maria Rah</h2>
+    <h1>Maria Rah</h1>
+    <h2>Research Associate</h2>
+    <p><a href="https://www.bao.am/staff/staff/RahMaria.php">BAO Profile</a></p>
 
-    <div class="section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:mariarah.astro@gmail.com">mariarah.astro@gmail.com</a></p>
+    <div class="section contact-info">
+        <h2>Contact Information</h2>
+        <p>Phone: Iran: (+98)935-651-8172 | Armenia: (+374)91-013-792</p>
+        <p>G-mail: <a href="mailto:mariarah.astro@gmail.com">mariarah.astro@gmail.com</a></p>
+        <p>Address: Iran: Roudbarsara St., Pounel town, Rezvanshahr City, Guilan Province.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Armenia: 0213, Astrophysical Observatory, Byurakan, Aragatzotn Province.</p>
     </div>
 
     <div class="section">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://www.bao.am/staff/staff/RahMaria.php">BAO Institute Profile</a></li>
-            <li>Google Scholar (coming soon)</li>
-            <li><a href="https://github.com/[YourGitHubUsername]">GitHub Profile</a></li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Selected Articles</h2>
-        <ul>
-            <li>Title 1 - <a href="https://doi.org/10.xxxx/xyz1">10.xxxx/xyz1</a></li>
-            <li>Title 2 - <a href="https://doi.org/10.xxxx/xyz2">10.xxxx/xyz2</a></li>
-            <li>Title 3 - <a href="https://doi.org/10.xxxx/xyz3">10.xxxx/xyz3</a></li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Curriculum Vitae</h2>
-        <p><strong>Maria Rah</strong><br>
-        Title: Research Associate<br>
-        Phone: Iran: (+98)935-651-8172 | Armenia: (+374)91-013-792<br>
-        G-mail: <a href="mailto:mariarah.astro@gmail.com">mariarah.astro@gmail.com</a><br>
-        Address: Iran: Roudbarsara St., Pounel town, Rezvanshahr City, Guilan Province.<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Armenia: 0213, Astrophysical Observatory, Byurakan, Aragatzotn Province.</p>
-
-        <h3>Work Experience</h3>
+        <h2>Work Experience</h2>
         <ul>
             <li>Foreign Research Associate at NAS RA Byurakan Astrophysical Observatory (BAO), Armenia (01/2025-Present)</li>
             <li>Researcher, Lecturer, Teacher and Data Analyzer in Astronomy & Astrophysics (08/2004-Present)</li>
@@ -81,12 +85,14 @@
             <li>Project Planner in Sepehr Research & Knowledge Development Co. (09/2014-08/2017, Part time)</li>
             <li>Teacher Assistant in Gravitation and Astrophysics Courses (10/2013-06/2015, Part time)</li>
         </ul>
+    </div>
 
-        <h3>Computer Skills</h3>
+    <div class="section">
+        <h2>Computer Skills</h2>
         <ul>
             <li>Data Analysis via: Python, FORTRAN, C++, Excel, MATLAB</li>
             <li>Scientific and Technical Simulation:
-                <ul>
+                <ul class="nested-list">
                     <li>N-Body6++GPU Codes (Star Clusters Evolution Simulation)</li>
                     <li>Cloudy (large-scale Spectral Synthesis Simulation)</li>
                     <li>ATLAS-WIDTH-SYNTHE2009 (Stellar Atmosphere Simulation)</li>
@@ -94,16 +100,20 @@
                 </ul>
             </li>
         </ul>
+    </div>
 
-        <h3>Languages Proficiency</h3>
+    <div class="section">
+        <h2>Languages Proficiency</h2>
         <ul>
             <li>Persian: Native</li>
             <li>English: Fluent</li>
             <li>German: A2</li>
             <li>Arabic: A2</li>
         </ul>
+    </div>
 
-        <h3>Education</h3>
+    <div class="section">
+        <h2>Education</h2>
         <ul>
             <li><strong>09/2022-Now</strong>: Senior PhD Student in Astronomy & Astrophysics, NAS RA Byurakan Astrophysical Observatory (BAO), Armenia<br>
                 Thesis Title: “Deep Diving into the Evolution of Pulsars through the Evolutionary Pathways of Globular Star Clusters via NBODY Simulation”<br>
@@ -115,16 +125,20 @@
             <li><strong>09/2004-07/2008</strong>: B.Sc. in Physics, Islamic Azad University, Rasht, Iran<br>
                 G.P.A.: 3.37/4 (Basic=3.44/4, Specialty=3.19/4, Elective=3.15/4)</li>
         </ul>
+    </div>
 
-        <h3>Research Field</h3>
+    <div class="section">
+        <h2>Research Field</h2>
         <ul>
             <li>Computational astrophysics, Modeling and simulation</li>
             <li>Dense star clusters, compact objects and Supernova Remnant</li>
             <li>Stellar Dynamics and Evolution in Dense clusters</li>
             <li>Data analysis of stellar atmospheres, Spectral lines and Astrochemistry</li>
         </ul>
+    </div>
 
-        <h3>Publications</h3>
+    <div class="section">
+        <h2>Publications</h2>
         <ul>
             <li>Proceeding, European Astronomical Society Annual Meeting (EAS 2025), Ireland, 2025</li>
             <li>Proceeding, IAU Symposium 398 & MODEST25, Korea, 2025</li>
@@ -157,8 +171,146 @@
                 DOI: <a href="https://doi.org/10.52526/25792776-2018.2.2-385">10.52526/25792776-2018.2.2-385</a><br>
                 Arbabi Bidgoli et al., 2018.</li>
         </ul>
+    </div>
 
-        <!-- ادامه بخش‌های دیگر رزومه مانند Memberships، Visits with Grants، Presentations و غیره به همین شکل اضافه شده‌اند. برای کوتاه‌تر شدن پاسخ، فقط بخش‌های اولیه نمایش داده شده است. -->
+    <div class="section">
+        <h2>Memberships</h2>
+        <ul>
+            <li>Byurakan Astrophysical Observatory, Armenia (BAO) (2022-Present)</li>
+            <li>The Silk Road Project at National Astronomy Observatories of Chinese Academy of Sciences, China (NAOC) (2018-Present)</li>
+            <li>Research Institute for Astronomy and Astrophysics of Maragha, Iran (RIAAM) (2016-12/2019)</li>
+            <li>Physics Society of Iran (PSI) (2014-06/2022)</li>
+            <li>Young Researchers Club, Iran, Rasht branch (YRC) (2006-12/2018)</li>
+            <li>Astronomy Society of Iran (ASI) (2005-Present)</li>
+            <li>Astronomy Society of Guilan, Rasht, Iran (ASG) (1999-Present)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Visits with Grants</h2>
+        <ul>
+            <li>IAU Grant, Seoul National University, Seoul (SNU), Rep. of Korea, 2025</li>
+            <li>Byurakan Astrophysical Observatory, Aragatzotn (BAO), Armenia, 2024</li>
+            <li>Byurakan Astrophysical Observatory, Aragatzotn (BAO), Armenia, 2023</li>
+            <li>The Silk Road Project at National Astronomy Observatories of Chinese Academy of Sciences, Beijing (NAOC), China, 2019-2020</li>
+            <li>Korea Astronomy and Space Science Institute, Daejeon (KASI), Rep. of Korea, 2019</li>
+            <li>The Silk Road Project at National Astronomy Observatories of Chinese Academy of Sciences, Beijing (NAOC), China, 2018</li>
+            <li>Byurakan Astrophysical Observatory, Aragatzotn (BAO), Armenia, 2018</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Presentations</h2>
+        <h3>Conferences</h3>
+        <ul>
+            <li>“Modeling Normal Pulsars in Globular Clusters via NBODY6++GPU”, IAU Symposium 398 & MODEST25, Seoul National University, Seoul, Korea, 2025</li>
+            <li>“Pulsars and MSPs II: Deep Diving into Evolutionary Pathways, Parameters, and Equations”, XVII Joint Byurakan-Abastumani Colloquium, Byurakan Observatory, Armenia, 2025</li>
+            <li>“Pulsars (x-ray & Gamma-ray) on the Galactic Field vs. Globular Clusters”, International Conference “Non-Stable Phenomena in the Universe”, Byurakan Observatory, Armenia, 2023</li>
+            <li>“Astronomy Dragons”, TEDxGilSquare, MiM Institute, Rasht, Iran, 2021</li>
+            <li>“Number count of 2MRS galaxies in the J, H, and K bands II”, Instability Phenomena and Evolution of the Universe, Byurakan Observatory, Armenia, 2018</li>
+            <li>“Number count of 2MRS galaxies in the J, H, and K bands I”, 20th Meeting on Research in Astronomy, Zanjan University (IASBS), Zanjan, Iran, 2017</li>
+            <li>“Stellar spectral analysis using ATLAS software, Giant star: ARCTURUS”, 7th National Conference on Physics of Payame Noor University, Tabriz, Iran, 2016</li>
+            <li>“Studies of Variations in the views Abul wafa Albuzdjani and Tycho Brahe”, The Astronomical center of Holiness AbdolAzim Holy Sheine, Tehran, Iran, 2014</li>
+            <li>“Investigation of historical astronomical instruments and their applications”, Governmental University of Rasht, Giulan, 2011</li>
+            <li>“The Moon”, The Whole Official Department of Meteorology, Rasht, Giulan, 2007</li>
+        </ul>
+
+        <h3>Workshops</h3>
+        <ul>
+            <li>“Recent Progress and Outstanding Questions in Millisecond Pulsar”, South West & Central Asian (SWCA) 4th Regional Astronomical Workshop (4RAW), Byurakan Observatory, Armenia, 2024</li>
+            <li>“Applicability of the results of NBODY simulation in ATLAS simulation”, 11th KCK workshop on stellar dynamics and related fields, Korea Astronomy and Space Science Institute (KASI), Rep. of Korea (KASI-Daejeon), 2019</li>
+            <li>“Stellar Atmosphere Simulating & Spectral Analysis Using ATLAS Software”, 10th KCK workshop on stellar dynamics and related fields, Xian Jiao tong Liverpool University (XJTLU), China (NAOC-Beijing-Suzhou), 2018</li>
+            <li>“Executive Committee Manager Two-day National Amateur Astronomy Workshop”, Rasht (before ICAA), Rasht, 2017</li>
+            <li>“Observatories and their facilities”, Islamic Azad University, Lahijan, Giulan, 2011</li>
+            <li>“2 Dimensional Stellarum”, 10th physics education conference, Rasht, Giulan, 2007</li>
+        </ul>
+
+        <h3>Posters</h3>
+        <ul>
+            <li>“Deep diving into the Evolutionary Mechanisms of Pulsars and Millisecond Pulsars” (Virtual), European Astronomical Society Annual Meeting (EAS 2025), University College Cork, Ireland, 2025</li>
+            <li>“Stellar spectra analysis of giant stars” (Virtual), Instability Phenomena and Evolution of the Universe, Byurakan Observatory, Armenia, 2020</li>
+            <li>“Structure and Processing of historical astronomical instruments: sextant and quadrant”, 4th national astronomy and astrophysics conference, Sistan and Baluchistan UNI., Zahedan, 2011</li>
+            <li>“The effect both of Rey and Maraqa Observatories on new Observatories”, The Astronomical center of Holiness AbdolAzim Holy Sheine, Tehran, 2011</li>
+            <li>“The philosophy of Kepler’s principles with Relation to Solar systems mechanism”, Islamic Azad University, Varamin-Pishva, Tehran, 2007</li>
+            <li>“The accidents on Moon and how observing them”, 5th conference on basic sciences, Islamic Azad University, Ghaemshahr, Mazandaran, 2006</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Participations</h2>
+        <h3>Conferences</h3>
+        <ul>
+            <li>MODEST24 (Modeling and Observing DEnse STellar systems) (Virtual), Nicolaus Copernicus Astronomical Center, Warsaw, Poland, 2024</li>
+            <li>Triennial meeting of the Marcel Grossmann (on Gravitation and Relativistic Theories) (Virtual), 16th Marcel Grossmann Meeting, Rome, 2021</li>
+            <li>Annual Meeting of the Astronomische Gesellschaft (Virtual), German Astronomical society, Germany, 2020</li>
+            <li>11th national astronomy and astrophysics conference, Ferdowsi University of Mashhad, Mashad, 2018</li>
+            <li>10th national astronomy and astrophysics conference, Sistan and Baluchistan university, Zahedan, 2017</li>
+            <li>19th meeting on Research in Astronomy, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 2016</li>
+            <li>National conference on “Venus Transit”, Milad tower, Tehran, 2012</li>
+            <li>International conference on “Khaj-e-Nasir-el-din-e Toosi”, Milad tower, Tehran, 2011</li>
+        </ul>
+
+        <h3>Workshops & Schools</h3>
+        <ul>
+            <li>9th Byurakan International Summer School (9BISS), Byurakan Astrophysical Observatory, Armenia, 2024</li>
+            <li>3rd Byurakan Regional and 1st Inter-Regional Astronomical Summer School (3RASS/1IRASS), Byurakan Astrophysical Observatory, Armenia, 2023</li>
+            <li>NBODY2023 workshop on gravitational N-body simulations (Virtual), Univ. of Heidelberg, Germany, 2023</li>
+            <li>VII Byurakan International Summer School (8BISS) (Virtual), Byurakan Astrophysical Observatory, Armenia, 2022</li>
+            <li>NBODY2021 workshop on gravitational N-body simulations (Virtual), Univ. of Heidelberg, Germany, 2021</li>
+            <li>MODEST-21a: AMUSE (Virtual), a community effort for an Astrophysical Multipurpose Software Environment, Germany, 2021</li>
+            <li>VII Byurakan International Summer School (7BISS) (Virtual), Byurakan Astrophysical Observatory, Armenia, 2020</li>
+            <li>NBODY2019 workshop on gravitational N-body simulations, The Silk Road Project at NAOC, Beijing, China, 2019</li>
+            <li>Recent Finding in the Cosmology, Rayan Institute for Astronomy and Astrophysics, Tehran, 2019</li>
+            <li>Advanced Astrophysics Workshop OF Maragha, The Research Institute for Astronomy and Astrophysics of Maragha (RIAAM), Maragha, 2019</li>
+            <li>VI Byurakan International Summer School (6BISS), Byurakan Astrophysical Observatory, Armenia, 2018</li>
+            <li>Observational Astronomy, Ferdowsi University of Mashhad, Mashhad, 2018</li>
+            <li>IPM Radio Astronomy School, Institute for Research in Fundamental Sciences (IPM), Tehran, 2017</li>
+            <li>International School on Star Clusters with Gaia, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan university, Zanjan, 2017</li>
+            <li>2th winter school, Astronomy Society of Iran (ASI), Sistan and Baluchistan university, Zahedan, 2017</li>
+            <li>Quasar Absorption Lines Workshop, Institute for Research in Fundamental Sciences (IPM), Tehran, 2017</li>
+            <li>8th Advanced Astrophysics Workshop OF Maragha, The Research Institute for Astronomy and Astrophysics of Maragha (RIAAM), Maragha, 2016</li>
+            <li>Observational Astronomy Summer School, Institute for Research in Fundamental Sciences (IPM), Tehran, 2013</li>
+            <li>Publishing International Scientific articles, Islamic Azad University, Rasht, Young Researchers Club, Rasht branch (YRC), Guilan, 2014</li>
+            <li>Scientific and Professional Ethics, Islamic Azad University, Rasht, Young Researchers Club, Rasht branch (YRC), Guilan, 2014</li>
+            <li>Principles and basics of scientific literature, Islamic Azad University, Rasht, Young Researchers Club, Rasht branch (YRC), Guilan, 2013</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Extra Courses and Skills</h2>
+        <ul>
+            <li>Training Virtual course on "Introduction to the programming and usage of the supercomputer resources at Jülich", 2020</li>
+            <li>Virtual lecture on computational physics, Rainer Spurzem, APL. Prof. (Univ. Heidelberg), 2020</li>
+            <li>Gravitation, Prof. Sepehr Arbabi Bidgoli, 2012</li>
+            <li>Computational Physics, Prof. Sepehr Arbabi Bidgoli, 2012</li>
+            <li>Spectroscopy in astronomy, Prof. Mohammad Taghi Mirtorabi, 2011</li>
+            <li>Relativities, Lecturer Shirvani, 2011</li>
+            <li>Translating professional texts, Prof. Mohammad Bagheri, 2011</li>
+            <li>Study of constellations, Lecturer Ali Razeghi, 2011</li>
+            <li>Astrophysics, Lecturer Mohammad Reza Noroozi, 2005</li>
+            <li>Observational astronomy, Lecturer Mohsen Iraji, 2005</li>
+            <li>Meteor shower, Prof. Soheil Khoshbin Far, 2004</li>
+            <li>Observation of new Moon, Lecturer Amir Hasanzadeh, 2004</li>
+            <li>An Introduction to Astronomy, Lecturer Ali Razeghi, 2001-2002</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Awards and Honors</h2>
+        <ul>
+            <li>First rank: The best Astrophysics Teacher, In National Examination at Astronomy Society of Iran (ASI), Winter 2017</li>
+            <li>First rank: researcher of amateur astronomy, In National Conference “publicizing science” at The Astronomical center of Holiness AbdolAzim Holy Sheine, Tehran, Winter 2014</li>
+            <li>Third rank: researcher of amateur astronomy, In National Conference “publicizing science” at The Astronomical center of Holiness AbdolAzim Holy Sheine, Tehran, Winter 2011</li>
+            <li>First rank: researcher of amateur astronomy, In Rasht, Giulan, Spring 2010</li>
+            <li>First rank: The best researcher, In YRC (between 3 Provinces in North of Iran), Spring 2008</li>
+            <li>The best astronomy Teacher, In Rasht, Giulan, Spring 2008</li>
+            <li>Top young researcher, In YRC (Rasht), Giulan (4 semesters), Spring and Autumn 2006 and 2007</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Extracurricular Activities and Hobbies</h2>
+        <p>Reading (Sociology, Psychology, Poem, Literature), Art (Wood, Glass, Pottery, Paraffin), Sport (Pilates, Swimming, Yoga), Dancing (Iranian National and Local Dances), Nature (mountaineering, Camping, Gardening, Walking), Cooking (Iranian, International), and Doing Puzzle Game!</p>
     </div>
 </body>
 </html>
